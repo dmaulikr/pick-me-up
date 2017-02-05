@@ -1,0 +1,6 @@
+framework module Pods_pick_me_upUITests {
+  umbrella header "Pods-pick-me-upUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

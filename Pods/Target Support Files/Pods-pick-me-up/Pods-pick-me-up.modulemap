@@ -1,0 +1,6 @@
+framework module Pods_pick_me_up {
+  umbrella header "Pods-pick-me-up-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,15 @@
+PODS:
+  - GiphySwift (1.0.1)
+  - SwiftGifOrigin (1.6.1)
+
+DEPENDENCIES:
+  - GiphySwift (~> 1.0)
+  - SwiftGifOrigin (~> 1.6.1)
+
+SPEC CHECKSUMS:
+  GiphySwift: 5ac81e337889464da0fd4fb82c6e79ae42c12c4e
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+
+PODFILE CHECKSUM: c7532ee7f3ac0b98658fb392dce20a67dc3fde47
+
+COCOAPODS: 1.1.1
