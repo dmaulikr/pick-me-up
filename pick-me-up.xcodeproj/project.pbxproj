@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB6CDAC71E477EC20097CF99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDAC61E477EC20097CF99 /* AppDelegate.swift */; };
+		DB6CDAC91E477EC20097CF99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDAC81E477EC20097CF99 /* ViewController.swift */; };
+		DB6CDACC1E477EC20097CF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6CDACA1E477EC20097CF99 /* Main.storyboard */; };
+		DB6CDACF1E477EC20097CF99 /* pick_me_up.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDACD1E477EC20097CF99 /* pick_me_up.xcdatamodeld */; };
+		DB6CDAD11E477EC20097CF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6CDAD01E477EC20097CF99 /* Assets.xcassets */; };
+		DB6CDAD41E477EC20097CF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6CDAD21E477EC20097CF99 /* LaunchScreen.storyboard */; };
+		DB6CDADF1E477EC20097CF99 /* pick_me_upTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDADE1E477EC20097CF99 /* pick_me_upTests.swift */; };
+		DB6CDAEA1E477EC20097CF99 /* pick_me_upUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDAE91E477EC20097CF99 /* pick_me_upUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB6CDADB1E477EC20097CF99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB6CDABB1E477EC20097CF99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6CDAC21E477EC20097CF99;
+			remoteInfo = "pick-me-up";
+		};
+		DB6CDAE61E477EC20097CF99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB6CDABB1E477EC20097CF99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6CDAC21E477EC20097CF99;
+			remoteInfo = "pick-me-up";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB6CDAC31E477EC20097CF99 /* pick-me-up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pick-me-up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6CDAC61E477EC20097CF99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB6CDAC81E477EC20097CF99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB6CDACB1E477EC20097CF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB6CDACE1E477EC20097CF99 /* pick_me_up.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pick_me_up.xcdatamodel; sourceTree = "<group>"; };
+		DB6CDAD01E477EC20097CF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB6CDAD31E477EC20097CF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB6CDAD51E477EC20097CF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6CDADA1E477EC20097CF99 /* pick-me-upTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pick-me-upTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6CDADE1E477EC20097CF99 /* pick_me_upTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pick_me_upTests.swift; sourceTree = "<group>"; };
+		DB6CDAE01E477EC20097CF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6CDAE51E477EC20097CF99 /* pick-me-upUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pick-me-upUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6CDAE91E477EC20097CF99 /* pick_me_upUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pick_me_upUITests.swift; sourceTree = "<group>"; };
+		DB6CDAEB1E477EC20097CF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB6CDAC01E477EC20097CF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6CDAD71E477EC20097CF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6CDAE21E477EC20097CF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB6CDABA1E477EC20097CF99 = {
+			isa = PBXGroup;
+			children = (
+				DB6CDAC51E477EC20097CF99 /* pick-me-up */,
+				DB6CDADD1E477EC20097CF99 /* pick-me-upTests */,
+				DB6CDAE81E477EC20097CF99 /* pick-me-upUITests */,
+				DB6CDAC41E477EC20097CF99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6CDAC41E477EC20097CF99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB6CDAC31E477EC20097CF99 /* pick-me-up.app */,
+				DB6CDADA1E477EC20097CF99 /* pick-me-upTests.xctest */,
+				DB6CDAE51E477EC20097CF99 /* pick-me-upUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6CDAC51E477EC20097CF99 /* pick-me-up */ = {
+			isa = PBXGroup;
+			children = (
+				DB6CDAC61E477EC20097CF99 /* AppDelegate.swift */,
+				DB6CDAC81E477EC20097CF99 /* ViewController.swift */,
+				DB6CDACA1E477EC20097CF99 /* Main.storyboard */,
+				DB6CDAD01E477EC20097CF99 /* Assets.xcassets */,
+				DB6CDAD21E477EC20097CF99 /* LaunchScreen.storyboard */,
+				DB6CDAD51E477EC20097CF99 /* Info.plist */,
+				DB6CDACD1E477EC20097CF99 /* pick_me_up.xcdatamodeld */,
+			);
+			path = "pick-me-up";
+			sourceTree = "<group>";
+		};
+		DB6CDADD1E477EC20097CF99 /* pick-me-upTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6CDADE1E477EC20097CF99 /* pick_me_upTests.swift */,
+				DB6CDAE01E477EC20097CF99 /* Info.plist */,
+			);
+			path = "pick-me-upTests";
+			sourceTree = "<group>";
+		};
+		DB6CDAE81E477EC20097CF99 /* pick-me-upUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6CDAE91E477EC20097CF99 /* pick_me_upUITests.swift */,
+				DB6CDAEB1E477EC20097CF99 /* Info.plist */,
+			);
+			path = "pick-me-upUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB6CDAC21E477EC20097CF99 /* pick-me-up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6CDAEE1E477EC20097CF99 /* Build configuration list for PBXNativeTarget "pick-me-up" */;
+			buildPhases = (
+				DB6CDABF1E477EC20097CF99 /* Sources */,
+				DB6CDAC01E477EC20097CF99 /* Frameworks */,
+				DB6CDAC11E477EC20097CF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pick-me-up";
+			productName = "pick-me-up";
+			productReference = DB6CDAC31E477EC20097CF99 /* pick-me-up.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB6CDAD91E477EC20097CF99 /* pick-me-upTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6CDAF11E477EC20097CF99 /* Build configuration list for PBXNativeTarget "pick-me-upTests" */;
+			buildPhases = (
+				DB6CDAD61E477EC20097CF99 /* Sources */,
+				DB6CDAD71E477EC20097CF99 /* Frameworks */,
+				DB6CDAD81E477EC20097CF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6CDADC1E477EC20097CF99 /* PBXTargetDependency */,
+			);
+			name = "pick-me-upTests";
+			productName = "pick-me-upTests";
+			productReference = DB6CDADA1E477EC20097CF99 /* pick-me-upTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB6CDAE41E477EC20097CF99 /* pick-me-upUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6CDAF41E477EC20097CF99 /* Build configuration list for PBXNativeTarget "pick-me-upUITests" */;
+			buildPhases = (
+				DB6CDAE11E477EC20097CF99 /* Sources */,
+				DB6CDAE21E477EC20097CF99 /* Frameworks */,
+				DB6CDAE31E477EC20097CF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6CDAE71E477EC20097CF99 /* PBXTargetDependency */,
+			);
+			name = "pick-me-upUITests";
+			productName = "pick-me-upUITests";
+			productReference = DB6CDAE51E477EC20097CF99 /* pick-me-upUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6CDABB1E477EC20097CF99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = arcingio;
+				TargetAttributes = {
+					DB6CDAC21E477EC20097CF99 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Q5HF28N9DN;
+						ProvisioningStyle = Automatic;
+					};
+					DB6CDAD91E477EC20097CF99 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Q5HF28N9DN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB6CDAC21E477EC20097CF99;
+					};
+					DB6CDAE41E477EC20097CF99 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Q5HF28N9DN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB6CDAC21E477EC20097CF99;
+					};
+				};
+			};
+			buildConfigurationList = DB6CDABE1E477EC20097CF99 /* Build configuration list for PBXProject "pick-me-up" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB6CDABA1E477EC20097CF99;
+			productRefGroup = DB6CDAC41E477EC20097CF99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB6CDAC21E477EC20097CF99 /* pick-me-up */,
+				DB6CDAD91E477EC20097CF99 /* pick-me-upTests */,
+				DB6CDAE41E477EC20097CF99 /* pick-me-upUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB6CDAC11E477EC20097CF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6CDAD41E477EC20097CF99 /* LaunchScreen.storyboard in Resources */,
+				DB6CDAD11E477EC20097CF99 /* Assets.xcassets in Resources */,
+				DB6CDACC1E477EC20097CF99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6CDAD81E477EC20097CF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6CDAE31E477EC20097CF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB6CDABF1E477EC20097CF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6CDACF1E477EC20097CF99 /* pick_me_up.xcdatamodeld in Sources */,
+				DB6CDAC91E477EC20097CF99 /* ViewController.swift in Sources */,
+				DB6CDAC71E477EC20097CF99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6CDAD61E477EC20097CF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6CDADF1E477EC20097CF99 /* pick_me_upTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6CDAE11E477EC20097CF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6CDAEA1E477EC20097CF99 /* pick_me_upUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB6CDADC1E477EC20097CF99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB6CDAC21E477EC20097CF99 /* pick-me-up */;
+			targetProxy = DB6CDADB1E477EC20097CF99 /* PBXContainerItemProxy */;
+		};
+		DB6CDAE71E477EC20097CF99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB6CDAC21E477EC20097CF99 /* pick-me-up */;
+			targetProxy = DB6CDAE61E477EC20097CF99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB6CDACA1E477EC20097CF99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6CDACB1E477EC20097CF99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB6CDAD21E477EC20097CF99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6CDAD31E477EC20097CF99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB6CDAEC1E477EC20097CF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB6CDAED1E477EC20097CF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6CDAEF1E477EC20097CF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q5HF28N9DN;
+				INFOPLIST_FILE = "pick-me-up/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcing.pick-me-up";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB6CDAF01E477EC20097CF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q5HF28N9DN;
+				INFOPLIST_FILE = "pick-me-up/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcing.pick-me-up";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DB6CDAF21E477EC20097CF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q5HF28N9DN;
+				INFOPLIST_FILE = "pick-me-upTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcing.pick-me-upTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pick-me-up.app/pick-me-up";
+			};
+			name = Debug;
+		};
+		DB6CDAF31E477EC20097CF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q5HF28N9DN;
+				INFOPLIST_FILE = "pick-me-upTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcing.pick-me-upTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pick-me-up.app/pick-me-up";
+			};
+			name = Release;
+		};
+		DB6CDAF51E477EC20097CF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q5HF28N9DN;
+				INFOPLIST_FILE = "pick-me-upUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcing.pick-me-upUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "pick-me-up";
+			};
+			name = Debug;
+		};
+		DB6CDAF61E477EC20097CF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q5HF28N9DN;
+				INFOPLIST_FILE = "pick-me-upUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arcing.pick-me-upUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "pick-me-up";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB6CDABE1E477EC20097CF99 /* Build configuration list for PBXProject "pick-me-up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6CDAEC1E477EC20097CF99 /* Debug */,
+				DB6CDAED1E477EC20097CF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6CDAEE1E477EC20097CF99 /* Build configuration list for PBXNativeTarget "pick-me-up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6CDAEF1E477EC20097CF99 /* Debug */,
+				DB6CDAF01E477EC20097CF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB6CDAF11E477EC20097CF99 /* Build configuration list for PBXNativeTarget "pick-me-upTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6CDAF21E477EC20097CF99 /* Debug */,
+				DB6CDAF31E477EC20097CF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB6CDAF41E477EC20097CF99 /* Build configuration list for PBXNativeTarget "pick-me-upUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6CDAF51E477EC20097CF99 /* Debug */,
+				DB6CDAF61E477EC20097CF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB6CDACD1E477EC20097CF99 /* pick_me_up.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB6CDACE1E477EC20097CF99 /* pick_me_up.xcdatamodel */,
+			);
+			currentVersion = DB6CDACE1E477EC20097CF99 /* pick_me_up.xcdatamodel */;
+			path = pick_me_up.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB6CDABB1E477EC20097CF99 /* Project object */;
+}
