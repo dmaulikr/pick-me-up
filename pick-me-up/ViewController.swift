@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     var data : Data = Data()
     var isLoaded : Bool = Bool()
+    var gifArray : Array <URL> = []
+    var gifRequestIndex:Int = 0
     
     @IBOutlet weak var gifImageView: UIImageView!
     
@@ -22,7 +24,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         Giphy.configure(with: .publicKey)
         giphyMe()
-        isLoaded = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,29 +33,31 @@ class ViewController: UIViewController {
 
     @IBAction func gifBtnPressed(_ sender: UIButton) {
         // Let's get a random GIF
-        if(isLoaded){
+        if gifRequestIndex < gifArray.count{
+            self.data = try! Data(contentsOf: gifArray[gifRequestIndex])
             self.gifImageView.image = UIImage.gif(data: self.data)
-            isLoaded = false
-        } else{
+            gifRequestIndex += 1
+        }else{
             giphyMe()
-            self.gifImageView.image = UIImage.gif(data: self.data)
+            gifRequestIndex = 0
         }
-        
-        
-        
     }
     
-    //TODO: Load 10 gifs into an array for faster loading.
-    
     func giphyMe(){
-        Giphy.Gif.request(.random(tag: "puppies")){ result in
+        Giphy.Gif.request(.search("puppies")){ result in
             switch result {
                 
             case .success(result: let gifs, properties: _):
-                //print(gifs[0].images.original.gif.url)
-                _ = UIImage(named: "gif")
-                let url = URL(string: gifs[0].images.original.gif.url)!
-                self.data = try! Data(contentsOf: url)
+                print(gifs.count)
+                var i:Int = 0
+                while i < gifs.count {
+                    let randomNum:UInt32 = arc4random_uniform(23)
+                    let gifIndex:Int = Int(randomNum)
+                    let url = URL(string: gifs[gifIndex].images.original.gif.url)!
+                    self.gifArray.append(url)
+                    i += 1
+                    //self.data = try! Data(contentsOf: url)
+                }
                 
             case .error(let error):
                 print("ERR: \n \(error)")

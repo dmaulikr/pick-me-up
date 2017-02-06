@@ -18,8 +18,6 @@
 		DB6CDAD41E477EC20097CF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6CDAD21E477EC20097CF99 /* LaunchScreen.storyboard */; };
 		DB6CDADF1E477EC20097CF99 /* pick_me_upTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDADE1E477EC20097CF99 /* pick_me_upTests.swift */; };
 		DB6CDAEA1E477EC20097CF99 /* pick_me_upUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDAE91E477EC20097CF99 /* pick_me_upUITests.swift */; };
-		DBE3C8971E4795A200D9A200 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE3C8961E4795A200D9A200 /* Alamofire.framework */; };
-		DBE3C8991E4795A700D9A200 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE3C8981E4795A700D9A200 /* AlamofireImage.framework */; };
 		DBE3C89B1E4795AA00D9A200 /* GiphySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE3C89A1E4795AA00D9A200 /* GiphySwift.framework */; };
 		DBE3C89E1E47A65C00D9A200 /* ImageGifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3C89D1E47A65C00D9A200 /* ImageGifExtension.swift */; };
 		DBE3C8A01E47A85500D9A200 /* SwiftGifOrigin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE3C89F1E47A85500D9A200 /* SwiftGifOrigin.framework */; };
@@ -80,8 +78,6 @@
 			files = (
 				DBE3C8A01E47A85500D9A200 /* SwiftGifOrigin.framework in Frameworks */,
 				DBE3C89B1E4795AA00D9A200 /* GiphySwift.framework in Frameworks */,
-				DBE3C8991E4795A700D9A200 /* AlamofireImage.framework in Frameworks */,
-				DBE3C8971E4795A200D9A200 /* Alamofire.framework in Frameworks */,
 				94860E359D9FFAD6384558BC /* Pods_pick_me_up.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
