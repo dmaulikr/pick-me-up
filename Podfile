@@ -8,6 +8,7 @@ target 'pick-me-up' do
   # Pods for pick-me-up
   pod 'SwiftGifOrigin', '~> 1.6.1'
   pod 'GiphySwift', '~> 1.0'
+  pod 'Material', '~> 2.4'
 
   target 'pick-me-upTests' do
     inherit! :search_paths

@@ -1,15 +1,20 @@
 PODS:
   - GiphySwift (1.0.1)
+  - Material (2.4.4):
+    - Material/Core (= 2.4.4)
+  - Material/Core (2.4.4)
   - SwiftGifOrigin (1.6.1)
 
 DEPENDENCIES:
   - GiphySwift (~> 1.0)
+  - Material (~> 2.4)
   - SwiftGifOrigin (~> 1.6.1)
 
 SPEC CHECKSUMS:
   GiphySwift: 5ac81e337889464da0fd4fb82c6e79ae42c12c4e
+  Material: 26f515d3291234716b47bb1b918746f254e80554
   SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
 
-PODFILE CHECKSUM: c7532ee7f3ac0b98658fb392dce20a67dc3fde47
+PODFILE CHECKSUM: 3e0762a773d4b6b5ca4eda939defd6bd61d3e997
 
 COCOAPODS: 1.1.1

@@ -18,8 +18,8 @@
 		DB6CDAD41E477EC20097CF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6CDAD21E477EC20097CF99 /* LaunchScreen.storyboard */; };
 		DB6CDADF1E477EC20097CF99 /* pick_me_upTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDADE1E477EC20097CF99 /* pick_me_upTests.swift */; };
 		DB6CDAEA1E477EC20097CF99 /* pick_me_upUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDAE91E477EC20097CF99 /* pick_me_upUITests.swift */; };
+		DBE12A321E49486E000C3935 /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE12A311E49486E000C3935 /* Material.framework */; };
 		DBE3C89B1E4795AA00D9A200 /* GiphySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE3C89A1E4795AA00D9A200 /* GiphySwift.framework */; };
-		DBE3C89E1E47A65C00D9A200 /* ImageGifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3C89D1E47A65C00D9A200 /* ImageGifExtension.swift */; };
 		DBE3C8A01E47A85500D9A200 /* SwiftGifOrigin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE3C89F1E47A85500D9A200 /* SwiftGifOrigin.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,10 +61,10 @@
 		DB6CDAE51E477EC20097CF99 /* pick-me-upUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pick-me-upUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6CDAE91E477EC20097CF99 /* pick_me_upUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pick_me_upUITests.swift; sourceTree = "<group>"; };
 		DB6CDAEB1E477EC20097CF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE12A311E49486E000C3935 /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = "../../../Library/Developer/Xcode/DerivedData/pick-me-up-hbbqrjygdpcdnigclpymdslarjzp/Build/Products/Debug-iphonesimulator/Material/Material.framework"; sourceTree = "<group>"; };
 		DBE3C8961E4795A200D9A200 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/pick-me-up-hbbqrjygdpcdnigclpymdslarjzp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		DBE3C8981E4795A700D9A200 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "../../../Library/Developer/Xcode/DerivedData/pick-me-up-hbbqrjygdpcdnigclpymdslarjzp/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
 		DBE3C89A1E4795AA00D9A200 /* GiphySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GiphySwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/pick-me-up-hbbqrjygdpcdnigclpymdslarjzp/Build/Products/Debug-iphonesimulator/GiphySwift/GiphySwift.framework"; sourceTree = "<group>"; };
-		DBE3C89D1E47A65C00D9A200 /* ImageGifExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGifExtension.swift; sourceTree = "<group>"; };
 		DBE3C89F1E47A85500D9A200 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGifOrigin.framework; path = "../../../Library/Developer/Xcode/DerivedData/pick-me-up-hbbqrjygdpcdnigclpymdslarjzp/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework"; sourceTree = "<group>"; };
 		EB18EDF1E36CD6FE9D300AAD /* Pods_pick_me_upUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pick_me_upUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F032346EA1EADBCE105D6B93 /* Pods-pick-me-upUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pick-me-upUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pick-me-upUITests/Pods-pick-me-upUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE12A321E49486E000C3935 /* Material.framework in Frameworks */,
 				DBE3C8A01E47A85500D9A200 /* SwiftGifOrigin.framework in Frameworks */,
 				DBE3C89B1E4795AA00D9A200 /* GiphySwift.framework in Frameworks */,
 				94860E359D9FFAD6384558BC /* Pods_pick_me_up.framework in Frameworks */,
@@ -117,6 +118,7 @@
 		64E15BAAF9A94E1633F6EFE3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBE12A311E49486E000C3935 /* Material.framework */,
 				DBE3C89F1E47A85500D9A200 /* SwiftGifOrigin.framework */,
 				DBE3C89A1E4795AA00D9A200 /* GiphySwift.framework */,
 				DBE3C8981E4795A700D9A200 /* AlamofireImage.framework */,
@@ -160,7 +162,6 @@
 				DB6CDAD21E477EC20097CF99 /* LaunchScreen.storyboard */,
 				DB6CDAD51E477EC20097CF99 /* Info.plist */,
 				DB6CDACD1E477EC20097CF99 /* pick_me_up.xcdatamodeld */,
-				DBE3C89D1E47A65C00D9A200 /* ImageGifExtension.swift */,
 			);
 			path = "pick-me-up";
 			sourceTree = "<group>";
@@ -467,7 +468,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE3C89E1E47A65C00D9A200 /* ImageGifExtension.swift in Sources */,
 				DB6CDACF1E477EC20097CF99 /* pick_me_up.xcdatamodeld in Sources */,
 				DB6CDAC91E477EC20097CF99 /* ViewController.swift in Sources */,
 				DB6CDAC71E477EC20097CF99 /* AppDelegate.swift in Sources */,

@@ -9,19 +9,28 @@
 import UIKit
 import GiphySwift
 import SwiftGifOrigin
+//import Material
 
 class ViewController: UIViewController {
+    @IBOutlet weak var contentScrollView: UIScrollView!
     
     var data : Data = Data()
     var isLoaded : Bool = Bool()
     var gifArray : Array <URL> = []
     var gifRequestIndex:Int = 0
+    var yPosition:CGFloat = 200
     
-    @IBOutlet weak var gifImageView: UIImageView!
+    @IBOutlet weak var gifBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // UI setup
+        gifBtn.layer.cornerRadius = 10
+        gifBtn.layer.borderWidth = 1
+        gifBtn.layer.borderColor = UIColor.black.cgColor
+        
         Giphy.configure(with: .publicKey)
         giphyMe()
     }
@@ -32,18 +41,36 @@ class ViewController: UIViewController {
     }
 
     @IBAction func gifBtnPressed(_ sender: UIButton) {
+        let gifHeight:CGFloat = 150
+        let gifWidth:CGFloat = 150
+        let gifImageView: UIImageView = UIImageView()
+        
+        
+        gifImageView.contentMode = UIViewContentMode.scaleAspectFit
+        gifImageView.frame.size.width = gifWidth
+        gifImageView.frame.size.height = gifHeight
+        gifImageView.frame.origin.y = contentScrollView.frame.height - yPosition
+        gifImageView.frame.origin.x = 30
+        
         // Let's get a random GIF
         if gifRequestIndex < gifArray.count{
+            print("GIFS!!!!!")
             self.data = try! Data(contentsOf: gifArray[gifRequestIndex])
-            self.gifImageView.image = UIImage.gif(data: self.data)
+            gifImageView.image = UIImage.gif(data: self.data)
             gifRequestIndex += 1
         }else{
             giphyMe()
             gifRequestIndex = 0
         }
+        contentScrollView.addSubview(gifImageView)
+        
+        let spacer:CGFloat = 8
+        
+        yPosition+=gifHeight + spacer
+        
     }
     
-    func giphyMe(){
+    internal func giphyMe(){
         Giphy.Gif.request(.search("puppies")){ result in
             switch result {
                 
